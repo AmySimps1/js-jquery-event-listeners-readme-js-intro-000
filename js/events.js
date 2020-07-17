@@ -22,15 +22,15 @@ function pressIt(){
 
 
 $(document).on('keydown', function(key) {
-  if(key.which == 83){
-      alert('s was pressed');
+  if(key.which == 71){
+      alert('g was pressed');
   }
 });
 
 
 
-function getIt(){
-  $('p').on('click', function(){
+function submitIt(){
+  $('form').on('submit', function(){
   alert("Hey!");
   });
 }
