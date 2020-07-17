@@ -9,7 +9,7 @@ function getIt(){
 }
 
 function frameIt(){
-  $('p').on('click', function(){
+  $('.tasty').on('load', function(){
   alert("Hey!");
   });
 }
