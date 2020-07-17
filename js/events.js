@@ -8,7 +8,7 @@ function getIt(){
   });
 }
 
-function getIt(){
+function frameIt(){
   $('p').on('click', function(){
   alert("Hey!");
   });
