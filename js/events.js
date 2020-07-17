@@ -8,5 +8,23 @@ function getIt(){
   });
 }
 
+function getIt(){
+  $('p').on('click', function(){
+  alert("Hey!");
+  });
+}
+
+function getIt(){
+  $('p').on('click', function(){
+  alert("Hey!");
+  });
+}
+
+function getIt(){
+  $('p').on('click', function(){
+  alert("Hey!");
+  });
+}
+
 
 });
