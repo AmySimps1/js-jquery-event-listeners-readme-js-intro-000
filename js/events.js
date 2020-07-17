@@ -14,7 +14,7 @@ function frameIt(){
   });
 }
 
-function getIt(){
+function pressIt(){
   $('p').on('click', function(){
   alert("Hey!");
   });
