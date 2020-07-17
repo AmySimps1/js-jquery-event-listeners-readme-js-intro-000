@@ -1,3 +1,12 @@
+$(document).ready(function(){
+getIt();
+frameIt();
+pressIt();
+submitIt();
+
+// call functions here
+
+});
 
 function getIt(){
   $('p').on('click', function(){
