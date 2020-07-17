@@ -6,8 +6,8 @@ function getIt(){
 }
 
 function frameIt(){
-  $('#tasty').on('load', function(){
-  console.log('img');
+  $('img').on('load', function(){
+  $('img').addClass('tasty');
   });
 }
 
