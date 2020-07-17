@@ -15,7 +15,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('p').on('click', function(){
+  $('p').on('keydown', function(){
   alert("Hey!");
   });
 }
